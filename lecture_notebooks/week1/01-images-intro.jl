@@ -164,7 +164,7 @@ md"""## If in doubt: Ask Julia!
 # ╔═╡ de373816-ec79-11ea-2772-ebdca52246ac
 begin
 	import Pkg
-	Pkg.activate(mktempdir())
+	Pkg.activate("mit")
 end
 
 # ╔═╡ 552129ae-ebca-11ea-1fa1-3f9fa00a2601

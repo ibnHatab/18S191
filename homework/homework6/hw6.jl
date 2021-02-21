@@ -16,7 +16,7 @@ end
 # ╔═╡ 05b01f6e-106a-11eb-2a88-5f523fafe433
 begin
 	using Pkg
-	Pkg.activate(mktempdir())
+	Pkg.activate("mit")
 	Pkg.add([
 			Pkg.PackageSpec(name="PlutoUI", version="0.6.7-0.6"), 
 			Pkg.PackageSpec(name="Plots", version="1.6-1"),

@@ -46,7 +46,7 @@ md"One-hot vectors:  Numbers and images
 0s and 1s and colors"
 
 # ╔═╡ b5177f70-f60b-11ea-14a9-f5a574cc5185
-Pkg.activate(mktempdir())
+Pkg.activate("mit")
 
 # ╔═╡ ef8f44b2-f5fc-11ea-1e4d-bd873cd39d6c
 @bind nn Slider(1:20, show_value=true)

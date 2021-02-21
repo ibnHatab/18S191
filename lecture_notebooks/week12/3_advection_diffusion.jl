@@ -16,7 +16,7 @@ end
 # ╔═╡ 232c24de-0e30-11eb-1544-53cb0b45ec9b
 begin
 	import Pkg
-	Pkg.activate(mktempdir())
+	Pkg.activate("mit")
 	Pkg.add([
 		"Colors",
 		"Plots",

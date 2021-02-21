@@ -16,7 +16,7 @@ end
 # ╔═╡ 86e1ee96-f314-11ea-03f6-0f549b79e7c9
 begin
 	using Pkg
-	Pkg.activate(mktempdir())
+	Pkg.activate("mit")
 end
 
 # ╔═╡ a4937996-f314-11ea-2ff9-615c888afaa8

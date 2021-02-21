@@ -14,7 +14,7 @@ begin
 end
 
 # ╔═╡ ca0e570a-f1dd-11ea-1655-29faf543c20a
-Pkg.activate(mktempdir())
+Pkg.activate("mit")
 
 # ╔═╡ 41e94dd4-f1d9-11ea-2d2f-4b521ddb2284
 md"""

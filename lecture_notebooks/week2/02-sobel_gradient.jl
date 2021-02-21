@@ -18,7 +18,7 @@ using Pkg
 
 # ╔═╡ 21e744b8-f0d1-11ea-2e09-7ffbcdf43c37
 begin
-	Pkg.activate(mktempdir())
+	Pkg.activate("mit")
 	
 	Pkg.add("Gadfly")
 	Pkg.add("Compose")

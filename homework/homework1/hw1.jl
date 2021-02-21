@@ -52,7 +52,7 @@ md"_Let's create a package environment:_"
 # ╔═╡ 65780f00-ed6b-11ea-1ecf-8b35523a7ac0
 begin
 	import Pkg
-	Pkg.activate(mktempdir())
+	Pkg.activate("mit")
 end
 
 # ╔═╡ 74b008f6-ed6b-11ea-291f-b3791d6d1b35

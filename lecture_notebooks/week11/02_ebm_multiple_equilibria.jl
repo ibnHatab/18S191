@@ -16,7 +16,7 @@ end
 # ╔═╡ e9ad66b0-0d6b-11eb-26c0-27413c19dd32
 begin
 	import Pkg
-	Pkg.activate(mktempdir())
+	Pkg.activate("mit")
 	Pkg.add([
 		"Plots",
 		"PlutoUI",

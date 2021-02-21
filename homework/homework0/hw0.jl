@@ -160,7 +160,7 @@ A package contains a coherent set of functionality that you can often use a blac
 # setting up an empty package environment
 begin
 	import Pkg
-	Pkg.activate(mktempdir())
+	Pkg.activate("mit")
 	Pkg.Registry.update()
 end
 

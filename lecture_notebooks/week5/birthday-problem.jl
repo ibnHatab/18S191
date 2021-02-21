@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ eb68872e-01ee-11eb-22e4-b1f20b71faff
 begin
 	import Pkg
-	Pkg.activate(mktempdir())
+	Pkg.activate("mit")
 	Pkg.add("Combinatorics")
 	using Combinatorics
 end

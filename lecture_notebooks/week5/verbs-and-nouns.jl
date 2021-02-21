@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 12478d9e-01f0-11eb-05d9-51c85d57ad10
 begin
 	using Pkg
-	Pkg.activate(mktempdir())
+	Pkg.activate("mit")
 end
 
 # ╔═╡ 823ed6c4-01fb-11eb-0d84-3b3f9f659ec8

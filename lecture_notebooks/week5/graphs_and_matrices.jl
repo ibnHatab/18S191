@@ -16,7 +16,7 @@ end
 # ╔═╡ 6e986f20-0270-11eb-071e-e14defbf6af7
 begin
 	import Pkg
-	Pkg.activate(mktempdir())
+	Pkg.activate("mit")
 	Pkg.add([
 			"GraphPlot",
 			"LightGraphs", 
